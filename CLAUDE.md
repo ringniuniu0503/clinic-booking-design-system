@@ -28,6 +28,7 @@ Design system + Storybook for an internal booking system for a Traditional Chine
 - In code, tokens are CSS variables: slashes become dashes → `--color-action-primary-bg-hover`, used as Tailwind classes (`bg-action-primary-bg-hover`).
 - Components use semantic tokens. Use a primitive only when no semantic token fits, and mention it in the PR.
 - Never hardcode hex colors, px spacing, radius or font sizes — no Tailwind default palette (`bg-blue-500`) and no arbitrary values. If a value is missing, stop and ask — don't invent a token.
+- 全圓角用 `rounded-rounded`，禁止使用 `rounded-full`。
 - Disabled = same tokens + `opacity: var(--opacity-disabled)` (40%). There are no disabled color tokens.
 - Focus = `:focus-visible` with the shared focus ring (4px spread, primary-600 at 30%). Never `outline: none` without a replacement.
 

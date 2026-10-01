@@ -9,6 +9,9 @@
   --color-*: initial;
   --spacing-*: initial;
   --radius-*: initial;
+  --text-*: initial;
+  --font-weight-*: initial;
+  --shadow-*: initial;
 
   /* Primitives — color/neutral */
   --color-neutral-0: #ffffff;
@@ -114,7 +117,7 @@
 
   /* Primitives — font */
   --font-base: "Noto Sans TC", sans-serif;
-  --default-font-family: var(--font-base);
+  --font-sans: var(--font-base);
   --font-weight-regular: 400;
   --font-weight-medium: 500;
   --font-weight-bold: 700;
