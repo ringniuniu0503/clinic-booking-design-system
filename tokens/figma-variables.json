@@ -129,7 +129,7 @@
         { "name": "color/border/default", "type": "COLOR", "alias": "color/neutral/100", "scopes": ["STROKE_COLOR"] },
         { "name": "color/border/strong", "type": "COLOR", "alias": "color/neutral/300", "scopes": ["STROKE_COLOR"] },
         { "name": "color/border/focus", "type": "COLOR", "alias": "color/primary/600", "scopes": ["STROKE_COLOR"] },
-        { "name": "color/action/primary/bg-default", "type": "COLOR", "alias": "color/primary/600", "scopes": ["FRAME_FILL", "SHAPE_FILL"] },
+        { "name": "color/action/primary/bg-default", "type": "COLOR", "alias": "color/primary/700", "scopes": ["FRAME_FILL", "SHAPE_FILL"] },
         { "name": "color/action/primary/bg-hover", "type": "COLOR", "alias": "color/primary/800", "scopes": ["FRAME_FILL", "SHAPE_FILL"] },
         { "name": "color/action/primary/bg-pressed", "type": "COLOR", "alias": "color/primary/950", "scopes": ["FRAME_FILL", "SHAPE_FILL"] },
         { "name": "color/action/primary/fg", "type": "COLOR", "alias": "color/neutral/0", "scopes": ["SHAPE_FILL", "TEXT_FILL", "STROKE_COLOR"] },
